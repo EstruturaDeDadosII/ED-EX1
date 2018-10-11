@@ -1,0 +1,23 @@
+FIFO: Firt in First Out (O primeiro a entrar é o primeiro a sair.
+
+Tipo a ser usado: Inteiro
+
+deque<int> pilha;
+
+Operação		Metodo			Estrutura [ FRONT : BACK]		OBS:
+
+1			push(10)		[ 10 ]
+2			push(20)		[ 20 10 ]
+3			push(30)		[ 30 20 10 ]	
+4			push(40)		[ 40 30 20 10 ]
+5			push(50)		[ 50 40 30 20 10 ]			Estrutura com 5 elementos
+6			pop()			[ 40 30 20 10 ]
+7			push(50)		[ 50 40 30 20 10 ]
+8			pop()			[ 40 30 20 10 ]
+9			pop()			[ 30 20 10 ]
+10			pop()			[ 20 10 ]
+11			pop()			[ 10 ]
+12			pop()			[ ]
+13			pop()			empty
+14			push(35)		[ 35 ]
+15			push(92)		[ 92 35 ]
