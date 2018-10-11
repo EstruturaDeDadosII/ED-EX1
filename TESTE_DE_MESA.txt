@@ -1,4 +1,4 @@
-FIFO: Firt in First Out (O primeiro a entrar é o primeiro a sair.
+Stack: LIFO: Last in First Out (O ultimo a entrar é o primeiro a sair.)
 
 Tipo a ser usado: Inteiro
 
